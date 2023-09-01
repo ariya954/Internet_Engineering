@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../Fonts/Inter-Bold.woff2") format("woff2"),
+  url("../Fonts/Inter-Bold.woff") format("woff");
+}
+
+.history-table {
+  position: relative;
+  top: 407px;
+  left: 130px;
+  font-family:'Inter';
+}
+
+.history-table table {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: #E5E4E2 0px 3px 3px;
+  text-align: left;
+  position: relative;
+  width: 78.5%;
+  height: 6%;
+}
+
+.history-table .bi {
+  position: absolute;
+  top: -20px;
+  left: 14px;
+  font-size: 15px;
+  font-style: normal;
+  color: #593C1C;
+  width: 76px;
+  height: 16px;
+  fill: currentColor;
+  viewBox: 0 0 16 16;
+}
+
+.history-table table img {
+  height: 30px;
+  width: 40px;
+}
+
+.gray {
+  color: #909090;
+  text-align: left;
+}
+
+.yellow {
+  color: #FFc700;
+  text-align: left;
+}
+
+.red {
+  color: #C82525;
+  text-align: left;
+}

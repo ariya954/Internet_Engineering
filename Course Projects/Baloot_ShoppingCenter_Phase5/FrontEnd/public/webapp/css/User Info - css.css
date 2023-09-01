@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../Fonts/Inter-Bold.woff2") format("woff2"),
+  url("../Fonts/Inter-Bold.woff") format("woff");
+}
+
+.user-info {
+  position: fixed;
+  top: 55px;
+  left: 143px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: #E5E4E2 0px 3px 3px;
+  width: 78.2%;
+  height: 140px;
+  font-family: 'Inter';
+}
+
+.user-info ul {
+  margin: 10px;
+  list-style-type: none;
+  text-align: left;
+  position: relative;
+  width: 115%;
+  top: -3px;
+  left: -20px;
+  padding-left: 30px;
+  line-height: 25px;
+}
+
+.user-info p {
+  margin: 10px;
+  text-align: left;
+  position: relative;
+  font-size: 50px;
+  font-stretch: expanded;
+  color:#593C1C;
+  width: 115%;
+  top: -125px;
+  left: 690px;
+}
+
+.credit-button {
+  position: relative;
+  top: -145px;
+  left: 700px;
+}
+
+.credit-button button {
+  font-family: 'Arial';
+  font-size: 15px;
+  color: #593C1C; /* White text */
+  padding: 8px 120px; /* Some padding */
+  background-color: #F7F0E9;
+  border: #F7F0E9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px;
+  margin-bottom: 3px;
+  text-align: center;
+  height: 35px;
+  width: 350px;
+}
+
+/* Clear floats (clearfix hack) */
+.credit-button:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.credit-button button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.credit-button button:hover {
+  background-color: #A97B47;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: white;
+}
+
+.add-credit-form-container .modal-header {
+  border: 0;
+}
+
+.add-credit-form-container .modal-body {
+  height: 100px;
+}
+
+.add-credit-form-container .modal-footer {
+  height: 30px;
+  border: 0;
+}
+
+.add-credit-form input {
+  background-color: #F5F5F5;
+  font-size: 15px;
+  position: relative;
+  width: 165px;
+  height: 33px;
+  top: -2px;
+  left: 0px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.add-credit-form button {
+  position: relative;
+  height: 33px;
+  width: 30%;
+  top: -1px;
+  left: 20px;
+  color: #A97B47; /* White text */
+  padding: 1px 24px; /* Some padding */
+  background-color: #F7F0E9;
+  border: #F7F0E9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px;
+  text-align:left;
+}
+
+/* Clear floats (clearfix hack) */
+.add-credit-form:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.add-credit-form button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.add-credit-form button:hover {
+  background-color: #A97B47;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: white;
+}
+
+.confirm-add-to-credit {
+  position: relative;
+  height: 33px;
+  width: 100%;
+  top: -37px;
+  left: 55px;
+}
+
+.confirm-add-to-credit button {
+  color: #A97B47; /* White text */
+  padding: 7px 24px; /* Some padding */
+  background-color: #F7F0E9;
+  border: #F7F0E9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px;
+  text-align:left;
+}
+
+/* Clear floats (clearfix hack) */
+.confirm-add-to-credit:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.confirm-add-to-credit button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.confirm-add-to-credit button:hover {
+  background-color: #A97B47;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: white;
+}

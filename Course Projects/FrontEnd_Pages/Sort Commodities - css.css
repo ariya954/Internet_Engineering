@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Fonts/Inter-Bold.woff2") format("woff2"),
+       url("./Fonts/Inter-Bold.woff") format("woff");
+}
+
+.sort-commodities-bar {
+  position: absolute;
+  font-family: 'Inter';
+  top: 40px;
+  left: 110px;
+  width: 80%;
+  height: 4%;
+  margin: 10px;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #F7F0E9;
+}
+
+.sort-commodities-bar label {
+  position: absolute;
+  top: 10px;
+  left: 220px;
+}
+
+.sort-commodities-bar p {
+  position: absolute;
+  top: 3px;
+  left: 15px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.button-group {
+  position: fix;
+  top: 60px;
+  right: 90px;
+  data-inline: true;
+  text-align: center;
+  background-color: #F7F0E9;
+}
+
+.button-group button {
+  color: #909090; /* White text */
+  padding: 10px 24px; /* Some padding */
+  background-color: #F7F0E9;
+  border: #F7F0E9;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px
+}
+
+/* Clear floats (clearfix hack) */
+.button-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.button-group button:hover {
+  background-color: #A97B47;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: white;
+}
+
+.button-group p {
+  position: fix;
+  top: -4px;
+  left: 750px
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #909090;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #4CBB17;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4CBB17;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

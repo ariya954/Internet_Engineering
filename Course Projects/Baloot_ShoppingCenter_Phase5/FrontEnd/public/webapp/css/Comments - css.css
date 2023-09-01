@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../Fonts/Inter-Bold.woff2") format("woff2"),
+       url("../Fonts/Inter-Bold.woff") format("woff");
+}
+.comments{
+  position: relative;
+  top: -110px;
+  left: 100px;
+  font-family:'Inter';
+}
+
+.comments ul {
+  margin: 3px 0px;
+}
+
+.comments li {
+  list-style-type: none;
+  background-color: white;
+  box-shadow: #E5E4E2 0px 3px 3px;
+  width: 1050px;
+  height: 55px;
+}
+
+.comments label {
+  color: #593C1C;
+  font-size: 20px;
+  position: relative;
+  width: 50%;
+  top: 5px;
+  left: 15px;
+}
+
+.comments .comment-info {
+  color: gray;
+  font-size: 13px;
+  position: relative;
+  width: 115%;
+  top: -5px;
+  left: 15px;
+}
+
+.comments .rate-comment {
+  color: #593C1C;
+  font-size: 13px;
+  float: right;
+  top: 0px;
+  left: 200px;
+}
+
+.comments .like-dislike-comment {
+  color: black;
+  font-size: 13px;
+  float: right;
+  top: -20px;
+  left: 430px;
+}
+
+.comments .bi {
+  cursor: pointer;
+  color: #593C1C;
+}
+
+.comments .gray {
+  color: #909090;
+  text-align: left;
+}
+
+.comments .black {
+  color: black;
+  text-align: left;
+  top: 0px;
+  left: 15px;
+}

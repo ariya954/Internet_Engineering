@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Fonts/Inter-Bold.woff2") format("woff2"),
+       url("./Fonts/Inter-Bold.woff") format("woff");
+}
+
+.recommended-commodities {
+  position: relative;
+  top: -90px;
+  left: 97px;
+  font-family: 'Inter';
+}
+
+.recommended-commodities h {
+  color: #593C1C;
+  font-size: 20px;
+  position: relative;
+  top: 105px;
+  left: 50px;
+}
+
+.recommended-commodities table {
+  position: relative;
+  width: 8%;
+  height: 20%;
+  margin: 0px;  
+  padding: 85px 24px; 
+  border-radius: 10px;
+  border-spacing: 27px;
+}

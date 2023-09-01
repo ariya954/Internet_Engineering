@@ -1,0 +1,239 @@
+<!Doctype html>
+
+<html>
+
+<head>
+	<title>Comodities</title>
+	<link rel="stylesheet" href="Normalize - css.css">
+	<link rel="stylesheet" href="Home Header - css.css">
+	<link rel="stylesheet" href="Sort Commodities - css.css">
+	<link rel="stylesheet" href="Commodities - page - css.css">
+	<link rel="stylesheet" href="Card - css.css">
+	<link rel="stylesheet" href="Pagination - css.css" />
+	<link rel="stylesheet" href="Footer - css.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  	<script>
+		$(document).ready(function(){
+			$(".default_option").click(function(){
+			  $(".dropdown ul").addClass("active");
+			  $(".default_option i").addClass("active");
+	       	  $(".option-list i").addClass("active");
+			});
+
+			$(".dropdown ul li").click(function(){
+			  $(".dropdown ul").removeClass("active");
+			  $(".default_option i").removeClass("active");
+	        	  $(".option-list i").removeClass("active");
+			  var text = $(this).text();
+             	  $(".default_option").text(text);
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="sort-commodities-bar">
+    <p><b>Available commodities&nbsp&nbsp</b></p>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+  <div class="button-group">
+    <p>sort by:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <button>name</button>
+      <button>price</button>
+    </p>
+  </div>
+</div>
+
+<table>
+  <tr>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+      <td>
+        <div class="card">
+          <label class="commodity">Huawei nova 9</label>
+          <p class="in-stock">1 left in stock</p>
+          <img src="photo/phone.png">
+          <p class="commodity-price">300$</p>
+          <div class="add-to-cart">
+            <button>add to cart</button>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="card">
+          <label class="commodity">Huawei nova 9</label>
+          <p class="in-stock">1 left in stock</p>
+          <img src="photo/phone.png">
+          <p class="commodity-price">300$</p>
+          <div class="add-to-cart">
+            <button>add to cart</button>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="card">
+          <label class="commodity">Huawei nova 9</label>
+          <p class="in-stock">1 left in stock</p>
+          <img src="photo/phone.png">
+          <p class="commodity-price">300$</p>
+          <div class="add-to-cart">
+            <button>add to cart</button>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="card">
+          <label class="commodity">Huawei nova 9</label>
+          <p class="in-stock">1 left in stock</p>
+          <img src="photo/phone.png">
+          <p class="commodity-price">300$</p>
+          <div class="add-to-cart">
+            <button>add to cart</button>
+          </div>
+        </div>
+      </td>
+  </tr>
+</table>
+
+<div class="pagination">
+   <a href="#">&laquo;</a>
+   <a href="#">1</a>
+   <a href="#">2</a>
+   <a href="#">3</a>
+   <a href="#">4</a>
+   <a href="#">5</a>
+   <a href="#">...</a>
+   <a href="#">10</a>
+   <a href="#">&raquo;</a>
+</div>
+
+<div class="footer">
+  <p>2023 @UT</p>
+</div>
+
+<div class="home-header">
+  <img src="photo/Baloot Logo.png">
+  <div class="btn-group">
+    <button>Register</button>
+    <button>Login</button>
+  </div>
+  <div class="wrapper">
+      <div class="search_box">
+          <div class="dropdown">
+              <div class="default_option">name
+          	     <i class="bi bi-chevron-down"></i> 
+              </div>	
+		   <div class="option-list">
+                <i class="bi bi-chevron-up"></i> 
+              </div>
+              <ul>
+                <li>name</li>
+                <li>category</li>
+              </ul>
+          </div>
+          <div class="search_field">
+            <input type="text" class="input" placeholder="search your product ...">
+            <i class="bi bi-search"></i>
+        </div>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>

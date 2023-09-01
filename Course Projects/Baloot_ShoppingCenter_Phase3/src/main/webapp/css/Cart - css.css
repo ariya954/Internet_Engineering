@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../Fonts/Inter-Bold.woff2") format("woff2"),
+  url("../Fonts/Inter-Bold.woff") format("woff");
+}
+
+
+.cart-table {
+  position: fixed;
+  top: 270px;
+  left: 130px;
+  font-family:'Inter';
+}
+
+.cart-table table {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: #E5E4E2 0px 3px 3px;
+  text-align: left;
+  position: relative;
+  width: 133.8%;
+  height: 6%;
+}
+
+.cart-table .bi {
+  position: absolute;
+  top: -10px;
+  left: 14px;
+  font-size: 15px;
+  font-style: normal;
+  color: #593C1C;
+  width: 66px;
+  height: 16px;
+  fill: currentColor;
+  viewBox: 0 0 16 16;
+}
+
+.pay_button {
+  position: relative;
+  top: 220px;
+  left: 450px;
+}
+
+.pay_button button {
+  font-family: 'Arial';
+  font-size: 15px;
+  color: #A97B47; /* White text */
+  padding: 10px 210px; /* Some padding */
+  background-color: #F7F0E9;
+  border: #F7F0E9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px;
+  text-align:left;
+}
+
+/* Clear floats (clearfix hack) */
+.pay_button:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pay_button button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.pay_button button:hover {
+  background-color: #A97B47;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: white;
+}
+
+.gray {
+  color: #909090;
+  text-align: left;
+}
+
+.yellow {
+  color: #FFc700;
+  text-align: left;
+}
+
+.red {
+  color: #C82525;
+  text-align: left;
+}
+
+.minus-button {
+  height: 93%;
+  margin-left: 5px;
+}
+
+.plus-button {
+  height: 100%;
+  margin-right: 15px;
+}
+
+.stepper-input {
+  position: relative;
+  transfor: translate(-50%,50%);
+  width: 90px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #593C1C;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+.stepper-input input {
+  display: none;
+}
+
+.stepper-input .input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.stepper-input .input button {
+  width: 15px;
+  background: #fff;
+  color: #222;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+
+.stepper-input .input button:active {
+  background: #555;
+}
+
+.stepper-input .input .range {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+}
+
+.stepper-input .input .range .list span {
+  display: block;
+  width: 110%;
+  height: 80px;
+  color: #222;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.buy-list-form-container .modal-header {
+  border: 0;
+}
+
+.buy-list-form-container .modal-body {
+  height: 200px;
+}
+
+.buy-list-form-container .modal-footer {
+  height: 30px;
+  border: 0;
+}
+
+.buy-list-item {
+  position: relative;
+  left: -14px;
+  color: #593C1C;
+}
+
+.buy-list-item .price {
+  color: #A97B47;
+  float: right;
+}
+
+.discount-form input {
+  background-color: #F5F5F5;
+  font-size: 15px;
+  position: relative;
+  width: 155px;
+  height: 33px;
+  top: 2px;
+  left: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.discount-form button {
+  position: relative;
+  height: 33px;
+  width: 30%;
+  top: 3px;
+  left: 16px;
+  color: #A97B47; /* White text */
+  padding: 1px 5px; /* Some padding */
+  background-color: #F7F0E9;
+  border: #F7F0E9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px;
+  text-align:center;
+}
+
+/* Clear floats (clearfix hack) */
+.discount-form:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.discount-form button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.discount-form button:hover {
+  background-color: #A97B47;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: white;
+}
+
+.total-price span {
+  position: relative;
+  top: 25px;
+  left: 16px;
+}
+
+.total-price .price {
+  position: relative;
+  float: right;
+  left: -15px;
+  color: red;
+}
+
+.finalize-the-buy-list button {
+  position: relative;
+  height: 33px;
+  width: 40%;
+  top: -35px;
+  left: 21px;
+  color: #A97B47; /* White text */
+  padding: 1px 24px; /* Some padding */
+  background-color: #F7F0E9;
+  border: #F7F0E9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px;
+  text-align:center;
+}
+
+/* Clear floats (clearfix hack) */
+.finalize-the-buy-list:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.finalize-the-buy-list button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.finalize-the-buy-list button:hover {
+  background-color: #A97B47;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: white;
+}

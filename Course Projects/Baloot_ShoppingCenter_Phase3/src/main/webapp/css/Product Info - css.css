@@ -1,0 +1,271 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../Fonts/Inter-Bold.woff2") format("woff2"),
+       url("../Fonts/Inter-Bold.woff") format("woff");
+}
+
+.product-info {
+  position: relative;
+  margin: 10px;
+  padding: 16px;
+  width: 200px;
+  height: 500px;
+  top: 50px;
+  left: 125px;
+  font-family: 'Inter';
+}
+
+.product-info img {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  border-radius: 10px;
+  background-color: white;
+  height: 300px;
+  width: 280px;
+}
+
+.product-name {  
+  position: relative;
+  top: 22px;
+  left: 300px;
+  color: #593C1C;
+  font-size: 20px;
+}
+
+.product-in-stock {  
+  position: relative;
+  top: 30px;
+  left: 300px;
+  color: red;
+  font-size: 14px;
+}
+
+.product-provider {  
+  position: relative;
+  top: 20px;
+  left: 300px;
+  color: black;
+  font-size: 14px;
+}
+
+.product-provider label {
+  color: blue;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.product-category {  
+  position: relative;
+  top: 15px;
+  left: 300px;
+  color: #593C1C;
+  font-size: 14px;
+}
+
+.product-category ul {
+  margin: 1px 0px;
+}
+
+.product-category li {  
+  position: relative;
+  top: -10px;
+  left: -15px;
+  color: #593C1C;
+}
+
+.product-price {  
+  position: relative;
+  top: 10px;
+  left: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: #E5E4E2 0px 3px 3px;
+  width: 285px;
+  height: 38px;
+}
+
+.product-price p {  
+  color: #593C1C;
+  font-size: 20px;
+  position: relative;
+  top: 7px;
+  left: 10px;  
+}
+
+.product-price .add-to-cart {
+  position: relative;
+  top: -37px;
+  left: 175px;
+  color: #593C1C;
+}
+
+.product-price .add-to-cart button {
+  color: #593C1C;
+  padding: 5px 15px; /* Some padding */
+  background-color: white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-color: #593C1C;
+  border-width: 1px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px
+}
+
+.product-price .add-to-cart button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.product-price .add-to-cart button:hover {
+  background-color: #593C1C;
+  color: white;
+}
+
+.minus-button {
+  height: 93%;
+  margin-left: 5px;
+}
+
+.plus-button {
+  height: 100%;
+  margin-right: 15px;
+}
+
+.stepper-input {
+  position: relative;
+  transfor: translate(-50%,50%);
+  width: 90px;
+  height: 30px;
+  top: -40px;
+  left: 183px;
+  background: #fff;
+  border: 1px solid #593C1C;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+.stepper-input input {
+  display: none;
+}
+
+.stepper-input .input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.stepper-input .input button {
+  width: 15px;
+  background: #fff;
+  color: #222;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+
+.stepper-input .input button:active {
+  background: #555;
+}
+
+.stepper-input .input .range {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+}
+
+.stepper-input .input .range .list span {
+  display: block;
+  position: relative;
+  width: 110%;
+  height: 80px;
+  top: -4px;
+  color: #222;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.product-rate {  
+  position: relative;
+  top: 30px;
+  left: 300px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: #E5E4E2 0px 3px 3px;
+  width: 200px;
+  height: 25px;
+}
+
+.product-rate p {  
+  color: black;
+  font-size: 14px;
+  position: relative;
+  top: -16px;
+  left: 8px;  
+}
+
+.product-rate .submit{
+  position: relative;
+  top: -50px;
+  left: 215px;
+  color: #593C1C;
+}
+
+.product-rate .submit button {
+  color: #593C1C;
+  padding: 5px 15px; /* Some padding */
+  background-color: white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-color: #593C1C;
+  border-width: 1px;
+  cursor: pointer; /* Pointer/hand icon */
+  margin-right: 15px
+}
+
+.product-rate .submit button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.product-rate .submit button:hover {
+  background-color: #593C1C;
+  color: white;
+}
+
+.product-rate span {
+  position: relative;
+  top: -25px;
+  left: 7px;
+  color: orange;
+}
+
+.product-rating {  
+  position: relative;
+  top: -180px;
+  left: 450px;
+}
+
+.product-rating span {
+  position: relative;
+  top: -25px;
+  left: 10px;
+  color: orange;
+}
+
+.product-rating p {
+  position: relative;
+  top: -26px;
+  left: 10px;
+  color: #593C1C;
+  font-size: 18px;
+  display: inline;
+}
+
+.product-rating .gray {
+  color: #909090;
+  text-align: left;
+  font-size: 14px;
+}

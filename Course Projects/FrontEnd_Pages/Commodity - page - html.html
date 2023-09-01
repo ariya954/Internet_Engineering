@@ -1,0 +1,172 @@
+<!Doctype html>
+
+<html>
+
+<head>
+	<title>Commodity</title>
+	<link rel="stylesheet" href="Normalize - css.css">
+	<link rel="stylesheet" href="Product - css.css">
+	<link rel="stylesheet" href="User Header - css.css">
+	<link rel="stylesheet" href="Commodity - page - css.css">
+	<link rel="stylesheet" href="Recommended Commodities - css.css">
+	<link rel="stylesheet" href="Card - css.css">
+	<link rel="stylesheet" href="Submit Opinion - css.css">
+	<link rel="stylesheet" href="Comments - css.css">
+	<link rel="stylesheet" href="Footer - css.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+	  function submit_rate_event() {	 
+  	  const submit_button = document.getElementById("SubmitButton");
+   	    submit_button.innerHTML = "loading";
+	    submit_button.style.color = "white";
+  	    submit_button.style.background = "#909090";	 
+	  }
+	  function post_comment_event() {	 
+  	  const post_button = document.getElementById("PostButton");
+   	    post_button.innerHTML = "Loading";
+	    post_button.style.color = "white";
+  	    post_button.style.background = "#909090";
+  	    post_button.style.paddingLeft = "14px";
+	  }
+	</script>
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="product">
+  <img src="photo/phone.png" width="280" height="130">
+  <label class="product-name">Huawei nova 9</label>
+  <p class="product-in-stock">5 left in stock</p>
+  <p class="product-provider">by&nbsp<h>Huawei</h></p>
+  <p class="product-category">Category(s)
+    <ul class="product-category">
+      <li>Technology</li>
+      <li>IT</li>z
+    </ul>
+  <div class="product-price">
+    <p>300$</p>
+    <div class="add-to-cart">
+      <button>add to cart</button>
+    </div>
+  </div>
+  <div class="product-rate">
+    <p>rate now</p>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <div class="submit">
+      <button id="SubmitButton" onclick="submit_rate_event()">submit</button>
+    </div>
+  </div>
+  <div class="product-rating">
+    <span class="fa fa-star checked"></span>
+    <p>4.1</p><p class="gray">(12)</p>
+  </div>
+</div>
+
+<div class="comments">
+  <ul>
+    <li><label>Comments&nbsp</label><label class="gray">(2)</label></li>
+    <li>
+      <label class="black">This was awsome!!!!</label>
+      <br><br>
+      <h>2023-03-20&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#username</h>
+      <label class="rate-comment">Is this comment helpful?</label>
+      <label class="like-dislike-comment">&nbsp&nbsp1&nbsp&nbsp<i class="bi bi-hand-thumbs-up"></i>&nbsp&nbsp&nbsp&nbsp1&nbsp&nbsp<i class="bi bi-hand-thumbs-down"></i></label> 
+  </ul>
+  <ul>
+    <li>
+      <label class="black">This was awfulllllllllllllllllll!!!!</label>
+      <br><br>
+      <h>2023-03-20&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#username</h>
+      <label class="rate-comment">Is this comment helpful?</label>
+      <label class="like-dislike-comment">&nbsp&nbsp1&nbsp&nbsp<i class="bi bi-hand-thumbs-up"></i>&nbsp&nbsp&nbsp&nbsp1&nbsp&nbsp<i class="bi bi-hand-thumbs-down"></i></label> 
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <div class="submit-opinion">
+        <h class="heading">Submit your opinion</h>
+        <input type="text" id="opinion">
+        <button id="PostButton" onclick="post_comment_event()">Post</button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="recommended-commodities">
+  <h>You also might like...</h>
+  <table>
+    <tr>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <label class="commodity">Huawei nova 9</label>
+        <p class="in-stock">1 left in stock</p>
+        <img src="photo/phone.png">
+        <p class="commodity-price">300$</p>
+        <div class="add-to-cart">
+          <button>add to cart</button>
+        </div>
+      </div>
+    </td>
+    </tr>
+  </table>
+</div>
+
+<div class="footer">
+  <p>2023 @UT</p>
+</div>
+
+<div class="user-header">
+  <img src="photo/Baloot Logo.png">
+    <p>#username&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+  <div class="btn-group">
+    <button>Cart&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp0</button>
+  </div>
+</div>
+
+</body>
+</html>
